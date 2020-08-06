@@ -9,8 +9,11 @@
     "tdd": "jest --watch --runInBand"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.21",
+    "uuid": "^8.3.0",
+    "uuidv4": "^6.2.1"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.1.5",
